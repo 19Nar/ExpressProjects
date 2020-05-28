@@ -1,5 +1,5 @@
 const express = require("express")
-const Article = require("./../models/article")
+const Article = require("./../modeles/article")
 const router = express.Router()
 
 router.get("/new", (req, res)=>{
